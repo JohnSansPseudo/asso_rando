@@ -3,42 +3,166 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap demo</title>
+        <title>Drôme Rando</title>
+        <meta name="description" content="Drôme randonnée (Drôme Rando) est une association dromoise dédiée à la randonnée et en particulier les randonnées en Drôme et les départements limitrophes."/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/3f28ba2509.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Rando Drôme</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                        </ul>
-                    </div>
+
+
+        <header  class="navbar navbar-expand-lg bg-light sticky-top">
+            <nav role="navigation" class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
+                <a class="navbar-brand" href="#">Drôme Rando</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="evenement.html">Tous nos évènements</a>
+                        </li>
+                    </ul>
                 </div>
             </nav>
         </header>
-        <main>
-            <article>
-                <section></section>
-                <section></section>
-            </article>
-            <aside></aside>
-        </main>
-        <footer>
-            <nav></nav>
-        </footer>
-        <script src="https://kit.fontawesome.com/3f28ba2509.js" crossorigin="anonymous"></script>
+
+        <div class="container">
+            <main>
+                <article>
+                    <section>
+                        <div class="row gy-5">
+                            <div class="col-12">
+                                <h1>Association Drôme Randonée</h1>
+                                <img src="https://loremflickr.com/1250/500/montain,Trek?random=3" id="imgBannerHome" class="img-fluid"/>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4">
+                                <img src="https://loremflickr.com/420/300/montain,Trek?random=1" class="img-fluid rounded " alt="landscape"/>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <h2>Qui sommes nous ?</h2>
+                                <p>L’association Drôme de randonnée est basée à Montélimar.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet explicabo nam recusandae
+                                    unde. Ab architecto dignissimos ducimus esse et facere id illum ipsam, maxime minus
+                                    molestiae placeat rerum sed.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolor facere ipsam
+                                    itaque libero omnis quibusdam reiciendis vel vero voluptatem. Blanditiis dolorem dolores
+                                    eligendi ex illo neque optio, perspiciatis voluptatem?</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="row gy-5">
+                            <div class="col-sm-6 col-lg-4">
+                                <h2>Dernière sortie</h2>
+                                <p>Lors de notre dernière sortie en date du 23 avril, orem ipsum dolor sit amet, consectetur adipisicing elit. A amet explicabo nam recusandae
+                                    unde. Ab architecto dignissimos ducimus esse et facere id illum ipsam, maxime minus
+                                    molestiae placeat rerum sed.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium dolor facere ipsam
+                                    itaque libero omnis quibusdam reiciendis vel vero voluptatem. Blanditiis dolorem dolores
+                                    eligendi ex illo neque optio, perspiciatis voluptatem?</p>
+                                <div class="d-grid gap-2">
+                                    <a class="btn btn-success btnSeeMore" href="evenement.html" role="button"><i class="fa-solid fa-shoe-prints fa-rotate-270"></i><span>Voir tous nos évènements</span></a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <img src="https://loremflickr.com/420/240/montain,lake?random=2" class="img-fluid rounded " alt="landscape"/>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="row gy-5">
+                            <h2>Prochaines randonnées</h2>
+                            <div class="card col-xs-12 col-sm-3" >
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Sadous Pays de Saillans</h5>
+                                    <p class="card-text text-center">07/03/2023</p>
+                                    <ul>
+                                        <li>Type : Randonnée</li>
+                                        <li>Animateur : Dominique T</li>
+                                        <li>Nombre de participants max. : 15</li>
+                                        <li>Niveau : 3 - moyen</li>
+                                        <li>Dénivelé : 420</li>
+                                        <li>Distance : 10kms</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Je m'inscris</a>
+                                </div>
+                            </div>
+                            <div class="card col-xs-12 offset-sm-1 col-sm-3" >
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Alissas cascade Gournier Rochesauve</h5>
+                                    <p class="card-text text-center">09/03/2023</p>
+                                    <ul>
+                                        <li>Type : Randonnée</li>
+                                        <li>Animateur : Aude</li>
+                                        <li>Nombre de participants max. : 15</li>
+                                        <li>Niveau : 3 - moyen</li>
+                                        <li>Dénivelé : 390</li>
+                                        <li>Distance : 11kms</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Je m'inscris</a>
+                                </div>
+                            </div>
+                            <div class="card col-xs-12 offset-sm-1 col-sm-3" >
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mont Rachas</h5>
+                                    <p class="card-text text-center">11/03/2023</p>
+                                    <ul>
+                                        <li>Type : Randonnée</li>
+                                        <li>Animateur : Guy</li>
+                                        <li>Nombre de participants max. : --</li>
+                                        <li>Niveau : 4 - soutenu</li>
+                                        <li>Dénivelé : 500</li>
+                                        <li>Distance : 12.2kms</li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary">Je m'inscris</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section>
+                       <div class="row gy-5">
+                            <h2>Membres de l'association</h2>
+                            <div class="card col-xs-12 col-sm-3">
+                                <img src="https://loremflickr.com/320/240/portrait,men?random=1" class="card-img-top" alt="portrait">
+                                <div class="card-body">
+                                    <h5 class="card-title">Président</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card offset-sm-1 col-xs-12 col-sm-3">
+                                <img src="https://loremflickr.com/320/240/portrait,women?random=2" class="card-img-top" alt="portrait">
+                                <div class="card-body">
+                                    <h5 class="card-title">Trésorier</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                            <div class="card offset-sm-1 col-xs-12 col-sm-3">
+                                <img src="https://loremflickr.com/320/240/portrait,women?random=3" class="card-img-top" alt="portrait">
+                                <div class="card-body">
+                                    <h5 class="card-title">Secrétaire</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                       </div>
+                    </section>
+                </article>
+            </main>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-muted">© 2022 Drôme Rando - Tous droits réservés</p>
+                <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">Drôme rando</a>
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Accueil</a></li>
+                    <li class="nav-item"><a href="evenement.html" class="nav-link px-2 text-muted">Tous nos évènements</a></li>
+                </ul>
+            </footer>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     </body>
 </html>

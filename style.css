@@ -1,0 +1,18 @@
+body {
+    background: #eee;
+}
+.btnSeeMore {
+    background: #2c5e42;
+    border: none;
+}
+.btn.btnSeeMore:hover {
+    background: #2c5e42;
+}
+.btnSeeMore i{
+    margin-right: 10px;
+}
+@media (max-width: 1000px) {
+    #imgBannerHome{
+        display: none;
+    }
+}

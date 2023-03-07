@@ -12,9 +12,9 @@
         <script src="https://kit.fontawesome.com/3f28ba2509.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header  class="navbar navbar-expand-lg bg-light sticky-top">
+        <header  class="navbar navbar-expand-lg bg-light z-1 position-fixed shadow w-100">
             <nav role="navigation" class="container-xxl bd-gutter flex-wrap flex-lg-nowrap">
-                <a class="navbar-brand" href="#">Drôme Rando</a>
+                <a class="navbar-brand" href="#"><i class="fa-solid fa-sun"></i>Drôme Rando</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -30,16 +30,23 @@
                 </div>
             </nav>
         </header>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-12 p-0 ">
+                    <img src="img/banner.jpg" id="imgBannerHome" class="col-12 "/>
+                    <div class="col-12 z-1 position-absolute top-50 start-0  text-white text-center  h-100">
+                        <h1 class="">Association Drôme Randonée</h1>
+                        <h4>Bienvenue dans la Drôme</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <main>
                 <article>
                     <!-- Qui sommes nous--><section>
-                        <div class="row">
-                            <div class="col-12">
-                                <h1>Association Drôme Randonée</h1>
-                                <img src="img/banner.jpg" id="imgBannerHome" class="img-fluid"/>
-                            </div>
-                        </div>
+
                         <div class="row">
                             <div class="col-sm-6 col-md-4">
                                 <img src="img/qui_sommes_nous.jpg" class="img-fluid"/>
@@ -127,23 +134,23 @@
                         </div>
                     </section>
                     <!-- Membres de l'association--><section>
-                       <div class="row gy-5">
+                       <div class="row">
                             <h2>Membres de l'association</h2>
-                            <div class="card col-xs-12 col-sm-3">
+                            <div class="card col-xs-12 col-sm-3 p-0">
                                 <img src="img/president.jpg" class="card-img-top" alt="portrait">
                                 <div class="card-body">
                                     <h5 class="card-title">Président</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-                            <div class="card offset-sm-1 col-xs-12 col-sm-3">
+                            <div class="card offset-sm-1 col-xs-12 col-sm-3 p-0">
                                 <img src="img/tresorier.webp" class="card-img-top" alt="portrait">
                                 <div class="card-body">
                                     <h5 class="card-title">Trésorier</h5>
                                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 </div>
                             </div>
-                            <div class="card offset-sm-1 col-xs-12 col-sm-3">
+                            <div class="card offset-sm-1 col-xs-12 col-sm-3 p-0">
                                 <img src="img/secretaire.jpg" class="card-img-top" alt="portrait">
                                 <div class="card-body">
                                     <h5 class="card-title">Secrétaire</h5>

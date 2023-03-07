@@ -8,11 +8,17 @@ body {
 .btn.btnSeeMore:hover {
     background: #2c5e42;
 }
-.btnSeeMore i{
+i{
     margin-right: 10px;
 }
+
+.navbar-brand i{
+    color: #ffd500;
+}
+
 @media (max-width: 1000px) {
     #imgBannerHome{
         display: none;
     }
 }
+

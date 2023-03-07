@@ -16,9 +16,24 @@ i{
     color: #ffd500;
 }
 
-@media (max-width: 1000px) {
-    #imgBannerHome{
-        display: none;
-    }
+header {
+    z-index: 1;
 }
 
+#imgWhoWeAre{
+    transform: rotateZ(-2deg);
+}
+#imgLastEvent{
+    transform: rotateZ(2deg);
+
+}
+
+@media (max-width: 767px){
+    #ctnBannerHome{
+        display: none;
+    }
+
+    #ctnWhoWeAre{
+        padding-top: 14%;
+    }
+}

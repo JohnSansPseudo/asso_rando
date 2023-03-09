@@ -6,4 +6,7 @@
 /dataSources/
 /dataSources.local.xml
 img/
-.idea/
+
+.idea/asso_rando.iml
+.idea/modules.xml
+.idea/vcs.xml

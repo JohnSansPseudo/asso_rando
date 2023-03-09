@@ -1,13 +1,13 @@
+/** GLOBAL **/
+
+header {
+    z-index: 1;
+}
+
 body {
     background: #eee;
 }
-.btnSeeMore {
-    background: #2c5e42;
-    border: none;
-}
-.btn.btnSeeMore:hover {
-    background: #2c5e42;
-}
+
 i{
     margin-right: 10px;
 }
@@ -16,24 +16,44 @@ i{
     color: #ffd500;
 }
 
-header {
-    z-index: 1;
-}
+/** FIN GLOBAL **/
 
+
+
+
+/** HOME **/
 #imgWhoWeAre{
     transform: rotateZ(-2deg);
 }
 #imgLastEvent{
     transform: rotateZ(2deg);
-
 }
 
 @media (max-width: 767px){
     #ctnBannerHome{
         display: none;
     }
-
     #ctnWhoWeAre{
         padding-top: 14%;
     }
 }
+
+/** FIN HOME **/
+
+
+
+/** EVENEMENT **/
+#ctnNextTrek{
+    padding-top: 6vh;
+}
+
+
+/** FIN EVENEMENT **/
+
+
+
+
+
+
+
+

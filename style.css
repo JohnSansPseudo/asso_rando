@@ -1,19 +1,15 @@
 /** GLOBAL **/
 
-header {
-    z-index: 1;
-}
+header { z-index: 1; }
 
-body {
-    background: #eee;
-}
+body { background: #eee; }
 
-i{
-    margin-right: 10px;
-}
+i{ margin-right: 10px;}
 
-.navbar-brand i{
-    color: #ffd500;
+.navbar-brand i{ color: #ffd500; }
+
+.ctnTopPage{
+    padding-top: 8vh;
 }
 
 /** FIN GLOBAL **/
@@ -34,23 +30,28 @@ i{
         display: none;
     }
     #ctnWhoWeAre{
-        padding-top: 14%;
+        /*padding-top: 14%;*/
     }
 }
 
-/** FIN HOME **/
+/** --- FIN HOME --- **/
 
 
 
 /** EVENEMENT **/
-#ctnNextTrek{
-    padding-top: 6vh;
-}
 
 
-/** FIN EVENEMENT **/
+
+/** --- FIN EVENEMENT --- **/
 
 
+
+
+/**  CONTACT */
+
+
+
+/* --- FIN CONTACT --- */
 
 
 
